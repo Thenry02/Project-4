@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="js/animsition/animsition.min.css">
+      <link rel="stylesheet" href="css/normalize.css" type="text/css">
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <title>Image Gallery</title>
+   </head>
+   <div class="animsition">
+      <body>
+         <h1>Interactive Photo Gallery</h1>
+         <h2>By Terrence H.</h2>
+         <div class="search">	
+            <input type="text" placeholder="Search" name="search" id="search" data-list="#imageGallery" class="searchBox">
+         </div>
+         <ul id="imageGallery" >
+            <li class="list" title="Took this snap on a drive through the countryside"><a href="Photos/01.jpg"><img src="Photos/Thumbnails/01.jpg" width="200" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields."></a></li>
+            <li class="list" title="The lake was so calm today"><a  href="Photos/02.jpg" ><img src="Photos/Thumbnails/02.jpg" width="200" alt="The lake was so calm today. We had a great view of the snow on the mountains from here."></a></li>
+            <li class="list" title="got this picture of the canyon and trees below"><a  href="Photos/03.jpg" ><img src="Photos/Thumbnails/03.jpg" width="200" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below."></a></li>
+            <li class="list" title="It was amazing to see an iceberg up close"><a  href="Photos/04.jpg" ><img src="Photos/Thumbnails/04.jpg" width="200" alt="It was amazing to see an iceberg up close, it was so cold but didn't snow today."></a></li>
+            <li class="list" title="It was really hot in the desert but we did a lot of walking"><a  href="Photos/05.jpg" ><img src="Photos/Thumbnails/05.jpg" width="200" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."></a></li>
+            <li class="list" title="Fall is coming, I love when the leaves"><a  href="Photos/06.jpg" ><img src="Photos/Thumbnails/06.jpg" width="200" alt="Fall is coming, I love when the leaves on the trees start to change color."></a></li>
+            <li class="list" title="I drove past this plantation yesterday"><a  href="Photos/07.jpg" ><img src="Photos/Thumbnails/07.jpg" width="200" alt="I drove past this plantation yesterday, everything is so green!"></a></li>
+            <li class="list" title="the Oregon Coast. I love the sandy dunes!"><a  href="Photos/08.jpg" ><img src="Photos/Thumbnails/08.jpg" width="200" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!"></a></li>
+            <li class="list" title="a quiet stroll down this countryside lane"><a  href="Photos/09.jpg" ><img src="Photos/Thumbnails/09.jpg" width="200" alt="We enjoyed a quiet stroll down this countryside lane."></a></li>
+            <li class="list" title="The sky turned a lovely shade of orange"><a  href="Photos/10.jpg" ><img src="Photos/Thumbnails/10.jpg" width="200" alt="Sunset at the coast! The sky turned a lovely shade of orange."></a></li>
+            <li class="list" title="I did a tour of a cave today and the view"><a  href="Photos/11.jpg" ><img src="Photos/Thumbnails/11.jpg" width="200" alt="I did a tour of a cave today and the view of the landscape below was breathtaking."></a></li>
+            <li class="list" title="I walked through this meadow of bluebells"><a class="gallery-demo" href="Photos/12.jpg" ><img src="Photos/Thumbnails/12.jpg" width="200" alt="
+               I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."></a></li>
+   </div>
+   <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+   <script type="text/javascript" src="js/animsition/jquery.animsition.min.js"></script>
+   <script type="text/javascript" src="js/jquery.hideseek.min.js"></script>
+   <script type="text/javascript" src="js/app.js" charset="utf-8"></script>
+   <script>
+      $('#search').hideseek({
+        attribute: 'title'
+      });
+   </script>
+   </body>
+   </ul>
+</html>

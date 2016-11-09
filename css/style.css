@@ -1,0 +1,112 @@
+body {
+	font-family: sans-serif;
+	background: #fff;
+	
+}
+h1, h2{
+	color: #000;
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	
+	padding: 0;
+	display: block;
+	
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+	    
+}
+a {
+	text-decoration: none;
+}
+/** Start Coding Here **/
+#overlay {
+  background:rgba(0,0,0,0.9);
+  width:100%;
+  height:110%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+
+}
+
+#overlay img {
+ margin-top: 15%; 
+ width: 650px;
+ height: 400px;
+
+}
+
+#overlay p {
+ color:white; 
+ width: 600px;
+ margin: 0 auto;
+ margin-top: 5%;
+}
+
+
+#leftArrow, #rightArrow{
+	background: url('../Photos/bg-slider-arrows.png') no-repeat;
+	background-size: cover;
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	margin: 40px;
+	vertical-align: 50%;
+}
+
+#rightArrow{
+	background-position: -75px 0px;
+}
+
+#closeLightbox{
+	background: url('../Photos/lightbox-close.png') no-repeat;
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	margin: 20px;
+	float: right;
+}
+
+
+.searchBox{
+	
+	text-align: center;
+	
+	margin:auto 350px;
+	border: 3px solid #d9d9d9;
+	border-radius: 4px;
+	font-size: 16pt;
+	color: rgba(0, 0, 0, 0.8);
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

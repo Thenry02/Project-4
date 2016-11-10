@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
    <head>
       <link rel="stylesheet" href="js/animsition/animsition.min.css">
       <link rel="stylesheet" href="css/normalize.css" type="text/css">
       <link rel="stylesheet" href="css/style.css" type="text/css">
       <title>Image Gallery</title>
    </head>
+   <body>
    <div class="animsition">
-      <body>
+      
          <h1>Interactive Photo Gallery</h1>
          <h2>By Terrence H.</h2>
-         <div class="search">	
+         
             <input type="text" placeholder="Search" name="search" id="search" data-list="#imageGallery" class="searchBox">
-         </div>
+      
          <ul id="imageGallery" >
             <li class="list" title="Took this snap on a drive through the countryside"><a href="Photos/01.jpg"><img src="Photos/Thumbnails/01.jpg" width="200" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields."></a></li>
             <li class="list" title="The lake was so calm today"><a  href="Photos/02.jpg" ><img src="Photos/Thumbnails/02.jpg" width="200" alt="The lake was so calm today. We had a great view of the snow on the mountains from here."></a></li>
@@ -27,6 +29,7 @@
             <li class="list" title="I did a tour of a cave today and the view"><a  href="Photos/11.jpg" ><img src="Photos/Thumbnails/11.jpg" width="200" alt="I did a tour of a cave today and the view of the landscape below was breathtaking."></a></li>
             <li class="list" title="I walked through this meadow of bluebells"><a class="gallery-demo" href="Photos/12.jpg" ><img src="Photos/Thumbnails/12.jpg" width="200" alt="
                I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."></a></li>
+         </ul>
    </div>
    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
    <script type="text/javascript" src="js/animsition/jquery.animsition.min.js"></script>
@@ -38,5 +41,5 @@
       });
    </script>
    </body>
-   </ul>
+   
 </html>
